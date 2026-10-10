@@ -6,6 +6,8 @@ Call Marvnor directly from your own application: save a fact, verify it, then de
 
 [API reference](PUBLIC_EVALUATION_API.md) · [Edit and delete records](docs/customer/record-management.md) · [LLM integration](docs/customer/llm-integration.md)
 
+Prefer a no-code setup? Open [Connect AI tools](https://api.marvnor.com/connect) and follow the [LLM integration guide](docs/customer/llm-integration.md). The steps below cover direct API calls.
+
 ## 1. Prepare your API key
 
 Sign in to the [customer portal](https://api.marvnor.com/), create an API key, and check that your account has available quota. Set `MARVNOR_API_KEY` in your application's runtime environment. Do not send the key to an LLM or put it in browser-side code.
