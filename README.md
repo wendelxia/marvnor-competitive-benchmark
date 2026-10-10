@@ -6,11 +6,7 @@ Marvnor verifies facts, detects conflicting records and gives LLM applications r
 
 Use it to check project dependencies, business states, time-sensitive evidence and conflicting information. Keep confirmed facts between questions, correct them when they change, and pass only the results needed for the next answer.
 
-[See the demo](https://wendelxia.github.io/marvnor/) · [Run the example](examples/README.md) · [API docs](PUBLIC_EVALUATION_API.md) · [Customer portal](https://api.marvnor.com/)
-
-## Connect your AI tool
-
-Open [Connect AI tools](https://api.marvnor.com/connect) in the customer portal. Check your key, then add Marvnor to VS Code Copilot Chat or Codex. Your AI can prepare the facts and queries, verify evidence, and correct or delete selected records with your approval. No Marvnor SDK required. [Setup and usage](docs/customer/llm-integration.md).
+[See the demo](https://wendelxia.github.io/marvnor/) · [Connect AI tools](https://api.marvnor.com/connect) · [API docs](PUBLIC_EVALUATION_API.md) · [Customer portal](https://api.marvnor.com/)
 
 ## Try it in one command
 
@@ -45,7 +41,7 @@ Call `POST /v1/evaluate` with structured facts and questions. Each answer contai
 - [Quickstart](USER_QUICKSTART.md): save, verify and delete a demonstration record.
 - [API reference](PUBLIC_EVALUATION_API.md): requests and six-field answers.
 - [Record management](docs/customer/record-management.md): correct records, delete selected data and import in chunks.
-- [LLM integration](docs/customer/llm-integration.md): forward the current question and relevant results to your model.
+- [LLM integration](docs/customer/llm-integration.md): set up VS Code or Codex, or build a gateway for your model.
 - [Usage guide](USAGE.md): account setup and everyday operation.
 
 [Chinese web documentation](https://api.marvnor.com/docs) · [Product introduction](INTRODUCTION.md) · [Test index and archives](TESTS.md) · [News](NEWS.md) · [Public materials license](LICENSE)
